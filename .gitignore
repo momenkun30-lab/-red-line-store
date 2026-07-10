@@ -1,0 +1,16 @@
+# حظر المجلدات البرمجية الضخمة الناتجة عن التثبيت
+node_modules/
+/dist
+/build
+.border
+
+# حظر ملفات المتغيرات البيئية والمفاتيح السرية (حماية قصوى)
+.env
+.env.local
+.env.production
+.env.development
+
+# ملفات أنظمة التشغيل والمؤقتات المخفية
+.DS_Store
+npm-debug.log*
+yarn-error.log*
